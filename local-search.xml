@@ -27,7 +27,7 @@
     <link href="/2023/08/03/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <url>/2023/08/03/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章 </p> <p><img src="C:\Users\admin\Desktop\Work\blog\source_posts\测试文章.assets\test.png" alt="图片引用方法二"> </p><p><img src="/images/test.png" alt="图片引用方法三"></p>]]></content>
+    <content type="html"><![CDATA[<p>这是一篇测试文章 </p> <p>这东西又是理论可行，实际上我不会操作</p><p><img src="/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.assets/test.png" alt="图片引用方法二"> </p><p>第三种没有前面的简单，就不写了</p><p>再试一试</p>]]></content>
     
     
     
