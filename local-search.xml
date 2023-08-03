@@ -4,11 +4,30 @@
   
   
   <entry>
+    <title>blog使用</title>
+    <link href="/2023/08/03/blog%E4%BD%BF%E7%94%A8/"/>
+    <url>/2023/08/03/blog%E4%BD%BF%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<p>关于blog如何使用，作为一个小白，还有诸多不会的地方，所以估计还是要进行多次的修改，才能实现流畅地使用。</p><h2 id="新建"><a href="#新建" class="headerlink" title="新建"></a>新建</h2><p><code>hexo new [layout] &lt;title&gt;</code></p><p>这是正常的用法，也即<code>hexo</code>之后使用，我的日常做法就是直接写<code>hexo new title</code></p><h2 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h2><p>这是另一个极为重要的操作，<del>虽然写这篇文档的时候我还有及其严重的延时</del>就简短的介绍一下，这个需要的是<code>hexo g -d</code>就可以满足所有的需要（大概？）</p><h2 id="待续"><a href="#待续" class="headerlink" title="待续"></a>待续</h2><p>这个肯定是待续，就是会一直增加的状态。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>测试文章</title>
     <link href="/2023/08/03/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <url>/2023/08/03/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章  </p><p><img src="C:\Users\admin\Desktop\Work\blog\source_posts\测试文章.assets\test.png" alt="图片引用方法二"> </p><p><img src="/images/test.png" alt="图片引用方法三"></p>]]></content>
+    <content type="html"><![CDATA[<p>这是一篇测试文章 </p> <p><img src="C:\Users\admin\Desktop\Work\blog\source_posts\测试文章.assets\test.png" alt="图片引用方法二"> </p><p><img src="/images/test.png" alt="图片引用方法三"></p>]]></content>
     
     
     
