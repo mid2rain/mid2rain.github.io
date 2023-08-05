@@ -4,13 +4,52 @@
   
   
   <entry>
+    <title>CTF学习</title>
+    <link href="/2023/08/05/CTF%E5%AD%A6%E4%B9%A0/"/>
+    <url>/2023/08/05/CTF%E5%AD%A6%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="令人一言难尽的课"><a href="#令人一言难尽的课" class="headerlink" title="令人一言难尽的课"></a>令人一言难尽的课</h1><p>这个课程实在是令人一言难尽，虽然有他的好处，但是在一些情况下又会让你感到精神错乱。<del>毕竟我疯狂写了好多好多天的作业</del>，这次来写也只是因为，我确实为此而发愁。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>课程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>CTF</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>新顺1730</title>
     <link href="/2023/08/05/%E6%96%B0%E9%A1%BA1730/"/>
     <url>/2023/08/05/%E6%96%B0%E9%A1%BA1730/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>作为一只中二少年，在看这本书之前，我相信的是<code>爱与正义</code>等虚无缥缈的东西，但是看了之后，我便开始学会了以历史和政治的眼光看待问题。诸如<code>正确的废话</code>、<code>生存的本能</code>、以及少许的<code>商业资本从属于工业资本</code>。故而在此记录一下此时的感受。</p><h2 id="立国之本"><a href="#立国之本" class="headerlink" title="立国之本"></a>立国之本</h2><p>对于大顺这个国家，什么是立国之本？</p>]]></content>
     
     
+    <categories>
+      
+      <category>生活</category>
+      
+      <category>读书笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>读书笔记</tag>
+      
+    </tags>
     
   </entry>
   
@@ -26,7 +65,7 @@
     
     <categories>
       
-      <category>生活</category>
+      <category>随笔</category>
       
     </categories>
     
@@ -111,6 +150,33 @@
       
     </categories>
     
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>考试周随笔</title>
+    <link href="/2023/06/24/%E8%80%83%E8%AF%95%E5%91%A8%E9%9A%8F%E7%AC%94/"/>
+    <url>/2023/06/24/%E8%80%83%E8%AF%95%E5%91%A8%E9%9A%8F%E7%AC%94/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-6-24记"><a href="#2023-6-24记" class="headerlink" title="2023&#x2F;6&#x2F;24记"></a>2023&#x2F;6&#x2F;24记</h1><blockquote><p>这部分记录于2023&#x2F;6&#x2F;24，单纯是前几天连续高强度复习，导致自己现在处于贤者时间。可能在后面就会直接咕咕。</p><p>决定了，现在就咕咕，因为想要被别人看见。</p><p>好吧，还是拿来记一点东西，用于留给自己看，虽然可能自己也不会看。</p></blockquote><h2 id="关于碎碎念"><a href="#关于碎碎念" class="headerlink" title="关于碎碎念"></a>关于碎碎念</h2><p>感觉我还是一个语言缺乏逻辑的人，就是总会在写着写着就会出现想要做另一些事情，于是就会突然中断，等到再回来时可能就会是很久之后。（可能还会有很久之后发现一些非常羞耻的语言），所以“<strong>碎碎念警告！</strong>”</p><h2 id="关于刷夜"><a href="#关于刷夜" class="headerlink" title="关于刷夜"></a>关于刷夜</h2><p>感觉刷夜是一个比较刺激而且“费身体”的活动，由于难以进行长时间的刷夜。仍旧记得当时在楼下进行补天，1-2点是在补马原，3-4点开始写我那丑陋的运筹学，到五点开始学习AAA中的内容，尝试理解AAA中的Python中的一部分内容。</p><p>当时感觉Python这个语言还是蛮有趣的，他的跨度不像C到c艹那样几个扩展与延伸，而是自己重新定义了一些函数如恶化使用，这是较为新奇的。比如说他的for是用一个range，他的数字好像是可以随意转换的。而且好像定义一种函数之后可以自己调用他的内部函数。（好像从C++中的OOP）。</p><p>刷夜到五点半的时候，抬头看了眼天空，感觉不知不觉之间就已经天亮了。当时的感觉，说一句古怪的话，就好比一个好学生偷偷熬夜的状态（虽然好像也是？），当时才看过一个“只有在刷夜的时候才会吃早餐”的帖子，想着六点半就出去吃下早点。然而出去了之后就发现自己的心脏有些略微受不住，感觉心脏的跳动开始逐渐地变缓？本来还想着等到六点半吃早点，担心直接去了，所以还是乖乖回去上床睡觉。</p><p>后续感觉还是蛮刺激的？就是有种做了之前从来没做过的事情的感觉？但同时也确实是有些承受不住，感觉只适合补部分紧急内容，不适合作为常态，希望锻炼锻炼身体，下次继续找些刺激的事情玩玩！</p><h2 id="关于无聊与有聊"><a href="#关于无聊与有聊" class="headerlink" title="关于无聊与有聊"></a>关于无聊与有聊</h2><p>这是开始写语雀的直接原因，因为过于无聊，（我甚至不知何时给自己定下了一天看番不超过两集的习惯，不知道后续会不会更新）。</p><p>我曾经在一本书，（似乎是叫《催眠师》？）里看到诸多视频都是极为无聊的，他们所能提供的知识密度是极为稀少的，难以让人们感到真正的充实感。个人还是比较认同这个观念的。人们语言的传递速率还是过于缓慢了，（这就是你不想说话的理由？）至少我现在确实是觉得视频还是较为无聊的。比如说我关注的up主魔法ZC目录最近也不怎么看他的直播了，转而看咸鱼肆群友聊天和CC98论坛（乐，这就继续去水）。</p><p>我很久之前就知道什么是有聊，什么是无聊，但是这不能阻止我在无聊的路上越奔越远。故而自己也只能在偶尔的清醒中做一些事情。</p><h1 id="2023-6-26"><a href="#2023-6-26" class="headerlink" title="2023&#x2F;6&#x2F;26"></a>2023&#x2F;6&#x2F;26</h1><h2 id="力扣吐槽"><a href="#力扣吐槽" class="headerlink" title="力扣吐槽"></a>力扣吐槽</h2><p>你是真的菜啊，改一个Medium改了半个小时，能不能给点力啊</p><p>改了一个下午。。。</p><h2 id="应用推荐"><a href="#应用推荐" class="headerlink" title="应用推荐"></a>应用推荐</h2><p><a href="https://pythontutor.com/visualize.html#mode=edit">Python Tutor</a>是一个非常清晰明了的工具</p><p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/1687788852168-4ed6085b-e0e0-46db-bcc9-5e79f83424ad.png" alt="img"></p><p>清晰地看见是在什么时候被调用</p><h1 id="2023-6-27-28"><a href="#2023-6-27-28" class="headerlink" title="2023&#x2F;6&#x2F;27-28"></a>2023&#x2F;6&#x2F;27-28</h1><p>不行，不能接着写Python了，该复习自控了</p><p>不过<a href="https://leetcode.cn/problems/sum-game/comments/">力扣1927</a>是一道有趣的题，代码如下：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span>(<span class="hljs-title class_ inherited__">object</span>):<br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">sumGame</span>(<span class="hljs-params">self, num</span>):<br>        length=<span class="hljs-built_in">len</span>(num)<br>        n1=<span class="hljs-number">0</span><br>        cnt=<span class="hljs-number">0</span><br>        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(length//<span class="hljs-number">2</span>):<br>            <span class="hljs-keyword">if</span> num[i]!=<span class="hljs-string">&quot;?&quot;</span>:<br>                n1+=<span class="hljs-built_in">int</span>(num[i])<br>            <span class="hljs-keyword">else</span>:<br>                cnt+=<span class="hljs-number">1</span><br>            <span class="hljs-keyword">if</span> num[length-i-<span class="hljs-number">1</span>]!=<span class="hljs-string">&quot;?&quot;</span>:<br>                n1-=<span class="hljs-built_in">int</span>(num[length-i-<span class="hljs-number">1</span>])   <br>            <span class="hljs-keyword">else</span>:<br>                cnt-=<span class="hljs-number">1</span><br>        <span class="hljs-keyword">if</span> (cnt==<span class="hljs-number">0</span> <span class="hljs-keyword">and</span> n1==<span class="hljs-number">0</span>) <span class="hljs-keyword">or</span> (cnt%<span class="hljs-number">2</span>==<span class="hljs-number">0</span> <span class="hljs-keyword">and</span> -n1==cnt//<span class="hljs-number">2</span>*<span class="hljs-number">9</span>):<br>            <span class="hljs-keyword">return</span> <span class="hljs-literal">False</span><br>        <span class="hljs-keyword">return</span> <span class="hljs-literal">True</span><br></code></pre></td></tr></table></figure><h2 id="自控复习"><a href="#自控复习" class="headerlink" title="自控复习"></a>自控复习</h2><p>在进行自控复习之时，我发现了诸多的内容，在这里记忆。然而啥也没有</p><p>这两天状态都不太好，至少保证前几章不要出现什么问题吧。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>随笔</category>
+      
+      <category>胡言乱语</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>胡言乱语</tag>
+      
+    </tags>
     
   </entry>
   
