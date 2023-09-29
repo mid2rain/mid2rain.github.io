@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>20239</title>
+    <link href="/2023/09/29/2023_9/"/>
+    <url>/2023/09/29/2023_9/</url>
+    
+    <content type="html"><![CDATA[<div class="note note-success">            <p>用LeetCode开始刷题，感觉会学到一些零散的东西，拿来记一记。</p><p><s>希望可以帮到来人</s></p>          </div><h2 id="网站记录">网站记录</h2><p><a href="https://www.bilibili.com/read/cv22332590/">如何科学上分？</a>，不得不说，灵神确实做了一个造福众人的设计。</p><p>还有<a href="https://www.bilibili.com/video/BV1bP411c7oJ/?spm_id_from=333.788&amp;vd_source=5cc5282af5785d0f21a2aec8b9ff0c35">灵神的课</a>，可以说很有益处</p><h2 id="9-29">9/29</h2><h3 id="同时调用两个列表中的函数">同时调用两个列表中的函数</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span>:<br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">sortPeople</span>(<span class="hljs-params">self, names: <span class="hljs-type">List</span>[<span class="hljs-built_in">str</span>], heights: <span class="hljs-type">List</span>[<span class="hljs-built_in">int</span>]</span>) -&gt; <span class="hljs-type">List</span>[<span class="hljs-built_in">str</span>]:<br>        mix = [(name, height) <span class="hljs-keyword">for</span> name, height <span class="hljs-keyword">in</span> <span class="hljs-built_in">zip</span>(names, heights)]<br>        mix = <span class="hljs-built_in">sorted</span>(mix, key=<span class="hljs-keyword">lambda</span> x: x[<span class="hljs-number">1</span>])<br>        sorted_names = [name <span class="hljs-keyword">for</span> name, _ <span class="hljs-keyword">in</span> mix]<br>        <span class="hljs-keyword">return</span> sorted_names<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Code</category>
+      
+      <category>LeetCode</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>LeetCode</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Terminal</title>
     <link href="/2023/09/25/Terminal/"/>
     <url>/2023/09/25/Terminal/</url>
