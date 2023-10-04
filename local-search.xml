@@ -4,11 +4,38 @@
   
   
   <entry>
+    <title>观鹤笔记</title>
+    <link href="/2023/10/03/%E8%A7%82%E9%B9%A4%E7%AC%94%E8%AE%B0/"/>
+    <url>/2023/10/03/%E8%A7%82%E9%B9%A4%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="文首感慨">文首感慨</h2><p>对于《观鹤笔记》，我有着一种莫名的感慨，假如我能早见到其一两年，我便不会如现在这般平静。我会对邓小瑛的身世而感到不平，会对杨婉而感到敬仰。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>随笔</category>
+      
+      <category>读书笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>读书笔记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>20239</title>
     <link href="/2023/09/29/2023_9/"/>
     <url>/2023/09/29/2023_9/</url>
     
-    <content type="html"><![CDATA[<div class="note note-success">            <p>用LeetCode开始刷题，感觉会学到一些零散的东西，拿来记一记。</p><p><s>希望可以帮到来人</s></p>          </div><h2 id="网站记录">网站记录</h2><p><a href="https://www.bilibili.com/read/cv22332590/">如何科学上分？</a>，不得不说，灵神确实做了一个造福众人的设计。</p><p>还有<a href="https://www.bilibili.com/video/BV1bP411c7oJ/?spm_id_from=333.788&amp;vd_source=5cc5282af5785d0f21a2aec8b9ff0c35">灵神的课</a>，可以说很有益处</p><h2 id="9-29">9/29</h2><h3 id="同时调用两个列表中的函数">同时调用两个列表中的函数</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span>:<br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">sortPeople</span>(<span class="hljs-params">self, names: <span class="hljs-type">List</span>[<span class="hljs-built_in">str</span>], heights: <span class="hljs-type">List</span>[<span class="hljs-built_in">int</span>]</span>) -&gt; <span class="hljs-type">List</span>[<span class="hljs-built_in">str</span>]:<br>        mix = [(name, height) <span class="hljs-keyword">for</span> name, height <span class="hljs-keyword">in</span> <span class="hljs-built_in">zip</span>(names, heights)]<br>        mix = <span class="hljs-built_in">sorted</span>(mix, key=<span class="hljs-keyword">lambda</span> x: x[<span class="hljs-number">1</span>])<br>        sorted_names = [name <span class="hljs-keyword">for</span> name, _ <span class="hljs-keyword">in</span> mix]<br>        <span class="hljs-keyword">return</span> sorted_names<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<div class="note note-success">            <p>用LeetCode开始刷题，感觉会学到一些零散的东西，拿来记一记。</p><p><s>希望可以帮到来人</s></p>          </div><h2 id="网站记录">网站记录</h2><p><a href="https://www.bilibili.com/read/cv22332590/">如何科学上分？</a>，不得不说，灵神确实做了一个造福众人的设计。</p><p>还有<a href="https://www.bilibili.com/video/BV1bP411c7oJ/?spm_id_from=333.788&amp;vd_source=5cc5282af5785d0f21a2aec8b9ff0c35">灵神的课</a>，可以说很有益处</p><h2 id="9-29">9/29</h2><h3 id="同时调用两个列表中的函数">同时调用两个列表中的函数</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span>:<br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">sortPeople</span>(<span class="hljs-params">self, names: <span class="hljs-type">List</span>[<span class="hljs-built_in">str</span>], heights: <span class="hljs-type">List</span>[<span class="hljs-built_in">int</span>]</span>) -&gt; <span class="hljs-type">List</span>[<span class="hljs-built_in">str</span>]:<br>        mix = [(name, height) <span class="hljs-keyword">for</span> name, height <span class="hljs-keyword">in</span> <span class="hljs-built_in">zip</span>(names, heights)]<br>        mix = <span class="hljs-built_in">sorted</span>(mix, key=<span class="hljs-keyword">lambda</span> x: x[<span class="hljs-number">1</span>])<br>        sorted_names = [name <span class="hljs-keyword">for</span> name, _ <span class="hljs-keyword">in</span> mix]<br>        <span class="hljs-keyword">return</span> sorted_names<br></code></pre></td></tr></table></figure><h3 id="同时调用列表的位置和数值">同时调用列表的位置和数值</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">s = [<span class="hljs-string">&quot;hello&quot;</span>, <span class="hljs-string">&quot;world&quot;</span>]<br><span class="hljs-keyword">for</span> i, j <span class="hljs-keyword">in</span> <span class="hljs-built_in">enumerate</span>(s):<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;position = &quot;</span>, i,<span class="hljs-string">&quot;key = &quot;</span>, j)<br></code></pre></td></tr></table></figure><p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/image-20230929151514827.png" alt="image-20230929151514827"></p><h3 id="集合增加使用-add">集合增加使用<code>.add()</code></h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">dic = <span class="hljs-built_in">set</span>()<br><span class="hljs-keyword">for</span>  i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-built_in">len</span>(s) - k + <span class="hljs-number">1</span>):<br>    dic.add(s[i:i+k])<br></code></pre></td></tr></table></figure><p>使用<code>add()</code>用来为集合增加元素</p>]]></content>
     
     
     <categories>
@@ -272,7 +299,7 @@
     <link href="/2023/08/05/%E6%96%B0%E9%A1%BA1730/"/>
     <url>/2023/08/05/%E6%96%B0%E9%A1%BA1730/</url>
     
-    <content type="html"><![CDATA[<h2 id="简介">简介</h2><p>作为一只中二少年，在看这本书之前，我相信的是<code>爱与正义</code>等虚无缥缈的东西，但是看了之后，我便开始学会了以历史和政治的眼光看待问题。诸如<code>正确的废话</code>、<code>生存的本能</code>、以及少许的<code>商业资本从属于工业资本</code>。故而在此记录一下此时的感受。</p><h2 id="立国之本">立国之本</h2><p>对于大顺这个国家，什么是立国之本？</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="简介">简介</h2><p>作为一只中二少年，在看这本书之前，我相信的是<code>爱与正义</code>等虚无缥缈的东西，但是看了之后，我便开始学会了以历史和政治的眼光看待问题。诸如<code>正确的废话</code>、<code>生存的本能</code>、以及少许的<code>商业资本从属于工业资本</code>。故而在此记录一下此时的感受。</p><h2 id="立国之本">立国之本</h2><p>对于大顺这个国家，什么是立国之本？在我看来，立国之本是在就是之本记过，来说大顺对于说比如，的建立如何是国家国家建立之初所做出的决定，比如他们选择最终选择了放弃。</p><h2 id="《观鹤笔记》">《观鹤笔记》</h2><p>对于观鹤笔记，我有一种说不出的感慨，假如我早看一年，我便会平白生成不少的感慨，其中既有对于邓小瑛的感慨，感慨其明明作为文官，却惨遭横祸，变成宦官，而在变成宦官之后，又想尽办法</p>]]></content>
     
     
     <categories>
