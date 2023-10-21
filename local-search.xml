@@ -8,8 +8,14 @@
     <link href="/2023/10/21/LaTeX%E4%BD%BF%E7%94%A8/"/>
     <url>/2023/10/21/LaTeX%E4%BD%BF%E7%94%A8/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<pre><code class="hljs">权当留个记录</code></pre><h2 id="简易公式与符号">简易公式与符号</h2><p>$x_i^2$: 最基本的上下标，上标用<code>^</code>下标用<code>x_&#123;&#125;</code></p><p>公式后的标记，如：$$F= ma \tag*{HERE}$$<br><code>\tag*&#123;HERE&#125;</code>即可实现</p><p>分式：$\frac{1}{2}$，使用<code>\frac&#123;1&#125;&#123;2&#125;</code>实现</p><p>符号：$\Delta$ and $\delta$ is <code>\Delta</code> and <code>\delta</code></p>]]></content>
     
+    
+    <categories>
+      
+      <category>杂项</category>
+      
+    </categories>
     
     
   </entry>
