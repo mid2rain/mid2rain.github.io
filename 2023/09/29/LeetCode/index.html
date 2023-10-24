@@ -16,12 +16,12 @@
   <meta name="author" content="mid2rain">
   <meta name="keywords" content="">
   
-    <meta name="description" content="用LeetCode开始刷题，感觉会学到一些零散的东西，拿来记一记。希望可以帮到来人             网站记录 如何科学上分？，不得不说，灵神确实做了一个造福众人的设计。 还有灵神的课，可以说很有益处  9&#x2F;29  同时调用两个列表中的函数 123456class Solution:    def sortPeople(self, names: List[str],">
+    <meta name="description" content="用LeetCode开始刷题，感觉会学到一些零散的东西，拿来记一记。希望可以帮到来人             网站记录 如何科学上分？，不得不说，灵神确实做了一个造福众人的设计。 还有灵神的课，可以说很有益处 1这里是Bug  9&#x2F;29  同时调用两个列表中的函数 123456class Solution:    def sortPeople(self, names: Li">
 <meta property="og:type" content="article">
 <meta property="og:title" content="LeetCode">
 <meta property="og:url" content="http://example.com/2023/09/29/LeetCode/index.html">
 <meta property="og:site_name" content="mid2rain">
-<meta property="og:description" content="用LeetCode开始刷题，感觉会学到一些零散的东西，拿来记一记。希望可以帮到来人             网站记录 如何科学上分？，不得不说，灵神确实做了一个造福众人的设计。 还有灵神的课，可以说很有益处  9&#x2F;29  同时调用两个列表中的函数 123456class Solution:    def sortPeople(self, names: List[str],">
+<meta property="og:description" content="用LeetCode开始刷题，感觉会学到一些零散的东西，拿来记一记。希望可以帮到来人             网站记录 如何科学上分？，不得不说，灵神确实做了一个造福众人的设计。 还有灵神的课，可以说很有益处 1这里是Bug  9&#x2F;29  同时调用两个列表中的函数 123456class Solution:    def sortPeople(self, names: Li">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/image-20230929151514827.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/image-20231004105052177.png">
@@ -335,6 +335,7 @@
 <h2 id="网站记录"><a class="markdownIt-Anchor" href="#网站记录"></a> 网站记录</h2>
 <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv22332590/">如何科学上分？</a>，不得不说，灵神确实做了一个造福众人的设计。</p>
 <p>还有<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1bP411c7oJ/?spm_id_from=333.788&amp;vd_source=5cc5282af5785d0f21a2aec8b9ff0c35">灵神的课</a>，可以说很有益处</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bug">这里是Bug<br></code></pre></td></tr></table></figure>
 <h2 id="929"><a class="markdownIt-Anchor" href="#929"></a> 9/29</h2>
 <h3 id="同时调用两个列表中的函数"><a class="markdownIt-Anchor" href="#同时调用两个列表中的函数"></a> 同时调用两个列表中的函数</h3>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span>:<br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">sortPeople</span>(<span class="hljs-params">self, names: <span class="hljs-type">List</span>[<span class="hljs-built_in">str</span>], heights: <span class="hljs-type">List</span>[<span class="hljs-built_in">int</span>]</span>) -&gt; <span class="hljs-type">List</span>[<span class="hljs-built_in">str</span>]:<br>        mix = [(name, height) <span class="hljs-keyword">for</span> name, height <span class="hljs-keyword">in</span> <span class="hljs-built_in">zip</span>(names, heights)]<br>        mix = <span class="hljs-built_in">sorted</span>(mix, key=<span class="hljs-keyword">lambda</span> x: x[<span class="hljs-number">1</span>])<br>        sorted_names = [name <span class="hljs-keyword">for</span> name, _ <span class="hljs-keyword">in</span> mix]<br>        <span class="hljs-keyword">return</span> sorted_names<br></code></pre></td></tr></table></figure>
