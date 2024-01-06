@@ -4,6 +4,111 @@
   
   
   <entry>
+    <title>人机期末复习</title>
+    <link href="/2024/01/06/%E4%BA%BA%E6%9C%BA%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    <url>/2024/01/06/%E4%BA%BA%E6%9C%BA%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="人工智能概述">人工智能概述</h2><h3 id="人工智能">人工智能</h3><p>​人工智能：一词目前是指用计算机模拟或实现的智能， 研究如何在机器上实现人类智能。即用机器来模仿人的智能。因此人工智能又称机器智能。</p><h3 id="智能体">智能体</h3>]]></content>
+    
+    
+    <categories>
+      
+      <category>课程</category>
+      
+      <category>大三上</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>课程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2024/01/05/%E4%BC%A0%E6%84%9F%E6%9C%9F%E6%9C%AB/"/>
+    <url>/2024/01/05/%E4%BC%A0%E6%84%9F%E6%9C%9F%E6%9C%AB/</url>
+    
+    <content type="html"><![CDATA[<h1>传感期末复习</h1><p><strong>重点</strong>：第1，3章</p><h2 id="第一章">第一章</h2><p>==重点==</p><p>准确度等级，更好的往下靠</p><p>统计量，均值，标准差：==真值由第三方提供/n，均值提供/(n-1)==</p><p>非线性补偿，不用多说太多。</p><p>系统误差判别：</p><p>标准差判据（3个）</p><p>粗大误差：M，J 分析处理（P20）消除减少粗大误差的方法。</p><p>P102：串联式仪表总结</p><p>P106：</p><p>P108-109 ：闭环系统总结</p><h2 id="第二章">第二章</h2><p>==核辐射可以不看==</p><p>计算 公式，一概不做要求</p><h3 id="开闭环仪表">开闭环仪表</h3><h4 id="开环">开环</h4><p>开环信息单向：只有每个环节性能都达到指标才能实现最终高精度，但是并非精度差。开环稳定性好，一般用于精度不高的场合，但是并非一定精度不好。</p><p>差动：将放大一倍</p><p>参比：消除部分误差</p><p>都需要性能完全一致的部件。</p><h4 id="闭环">闭环</h4><p>容易自激振荡，稳定是重要因素</p><p>P109：</p><p>闭环牺牲灵敏度换取精度，但是只要少数反馈环节精度高。未必闭环可以高精度高灵敏度。</p><h3 id="检测元件">检测元件</h3><p>简单记录能做什么：比如能做弹簧表，温度计</p><p>原理，特点，使用中需要考虑的问题。</p><h4 id="光电">光电</h4><p>区分内光电和外广电。外广电有频率极限。内光电：光电导，光生伏特。</p><p>外广电，光电管，需要考虑</p><h4 id="表格">表格</h4><table><thead><tr><th></th><th>原理</th><th>特点</th><th>注意</th><th>使用</th></tr></thead><tbody><tr><td>内光电</td><td></td><td></td><td></td><td></td></tr><tr><td>外光电</td><td></td><td></td><td></td><td></td></tr><tr><td>电容</td><td></td><td></td><td>如何克服zashan电容</td><td></td></tr><tr><td>热电偶</td><td>不同导体，接触点起作用</td><td>反映温度差</td><td>冷端温度补偿</td><td></td></tr><tr><td>热电阻</td><td></td><td></td><td></td><td></td></tr><tr><td>辐射</td><td>选择部分频段或者全部频段</td><td></td><td></td><td></td></tr><tr><td>磁电</td><td></td><td>不依赖外部电源输出电信号</td><td>磁致伸缩，压磁</td><td></td></tr><tr><td>红外</td><td></td><td></td><td>有大气窗口</td><td></td></tr><tr><td>超声</td><td>产生用厌，接受用正压电效应</td><td></td><td></td><td></td></tr><tr><td>压磁</td><td></td><td>慢</td><td></td><td></td></tr><tr><td>压电</td><td></td><td>只能用于快</td><td></td><td></td></tr><tr><td>压阻</td><td></td><td>快慢皆可</td><td></td><td></td></tr></tbody></table><h3 id="检测对象">检测对象</h3><p>==温度==：热电偶</p><p>==压力==：乙炔，氨等要用特殊的压力检测仪表，出现矛盾先保证波动量，再保证精度</p><p>P165，166 仪表类型，量程的选择</p><p>==液位==：波动范围和偏移量。只要算出一个范围，一般不考虑余量(除非试卷表明)</p><p>超声波液位计要温度补偿。</p><p>磁致伸缩唯一单台测量多个液面。</p><p>==流量==：<em>考的相对较多</em></p><p>体积流量：</p><p>电磁流量计：廉价，要求测量对象必须导电导磁。水可以，</p><p>涡阶(?)流量计</p><p>涡旋流量计：有转动部件，要加过滤器，可以直接由转速表述流量。</p><p>质量流量：</p><p>气体流量：温压补偿，温度变送器，压力变送器。</p><p>==成分==：红外，射谱？</p><h2 id="第三章">第三章</h2><p>==3.1.3信号变换方法==</p><p>==3.7整节不看==</p><h2 id="第四章">第四章</h2><p>==要求较低==</p><h2 id="设计">设计</h2><p>流量：科氏流量计</p><p>要求原理正确：&gt;=80%</p><p>含NH3：氨用压力表</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2024/01/04/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    <url>/2024/01/04/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</url>
+    
+    <content type="html"><![CDATA[<div class="cover" style="page-break-after:always;font-family:方正公文仿宋;width:100%;height:100%;border:none;margin: 0 auto;text-align:center;">    <div style="width:60%;margin: 0 auto;height:0;padding-bottom:10%;">        </br>        <img src="https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/ZJU-name.svg" alt="校名" style="width:100%;"/>    </div>    </br></br></br></br></br>    <div style="width:60%;margin: 0 auto;height:0;padding-bottom:40%;">        <img src="https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/ZJU-logo.svg" alt="校徽" style="width:100%;"/></div>    </br></br></br></br></br></br></br></br>    <span style="font-family:华文黑体Bold;text-align:center;font-size:20pt;margin: 10pt auto;line-height:30pt;">传感与检测</span>    <p style="text-align:center;font-size:14pt;margin: 0 auto">实验报告 </p>    </br>    </br>    <table style="border:none;text-align:center;width:72%;font-family:仿宋;font-size:14px; margin: 0 auto;">    <tbody style="font-family:方正公文仿宋;font-size:12pt;">    <tr style="font-weight:normal;">     <td style="width:20%;text-align:right;">课程名称</td>    <td style="width:2%">：</td>     <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 传感与检测</td>     </tr>        <tr style="font-weight:normal;">     <td style="width:20%;text-align:right;">学　　院</td>    <td style="width:%">：</td>     <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 控制科学与工程学院</td>     </tr>        <tr style="font-weight:normal;">     <td style="width:20%;text-align:right;">专　　业</td>    <td style="width:%">：</td>     <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 自动化（控制）</td>     </tr><tr style="font-weight:normal;">     <td style="width:20%;text-align:right;">姓　　名</td>    <td style="width:2%">：</td>     <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 刘祥盛</td>     </tr>    <tr style="font-weight:normal;">     <td style="width:20%;text-align:right;">学　　号</td>    <td style="width:2%">：</td>     <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">3210105577 </td>     </tr><tr style="font-weight:normal;">     <td style="width:20%;text-align:right;">指导老师</td>    <td style="width:2%">：</td>     <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">曹峥 </td>     </tr>        <tr style="font-weight:normal;">     <td style="width:20%;text-align:right;">日　　期</td>    <td style="width:2%">：</td>     <td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">2023年12月22日</td>     </tr>    </tbody>                  </table></div><!-- 注释语句：导出PDF时会在这里分页 -->]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/12/10/%E6%99%BA%E6%8E%A7%E4%B8%80/"/>
+    <url>/2023/12/10/%E6%99%BA%E6%8E%A7%E4%B8%80/</url>
+    
+    <content type="html"><![CDATA[<h1>智控作业</h1><p>**摘要：**在</p><p>**关键词：**在</p><h2 id="原理">原理</h2><h3 id="初始化参数">初始化参数</h3><p>初始化参数包括权重 (<code>wih</code>, <code>who</code>) 和偏置 (<code>bh</code>, <code>bo</code>)。在代码中，使用正态分布随机初始化权重，偏置初始化为零。</p><h4 id="1-2-前向传播">1.2 前向传播</h4><p>前向传播将输入信号通过权重和激活函数传递到神经网络的输出。具体来说，对于第 $l$ 层的神经元 $j$，其输入 $a_j^{(l)}$ 和输出 $h_j^{(l)}$ 分别为：</p><p>$$a_j^{(l)} = \sum_{i=1}^{n^{(l-1)}} w_{ji}^{(l)} h_i^{(l-1)} + b_j^{(l)}$$</p><p>$$h_j^{(l)} = \text{ReLU}(a_j^{(l)})$$</p><p>其中，$n^{(l-1)}$ 是前一层的神经元数量，$w_{ji}^{(l)}$ 是连接第 $i$ 个神经元到第 $j$ 个神经元的权重，$b_j^{(l)}$ 是第 $j$ 个神经元的偏置，$\text{ReLU}(x)$ 是修正线性单元激活函数。</p><h4 id="1-3-反向传播">1.3 反向传播</h4><p>反向传播用于计算梯度，从而更新权重和偏置。对于输出层和隐藏层的神经元 $j$，其误差项 $\delta_j^{(l)}$ 分别为：</p><p>$$\delta_j^{(L)} = \frac{\partial \mathcal{L}}{\partial a_j^{(L)}}$$</p><p>$$\delta_j^{(l)} = \frac{\partial \mathcal{L}}{\partial a_j^{(l)}} = (\sum_{k=1}^{n^{(l+1)}} w_{kj}^{(l+1)} \delta_k^{(l+1)}) \cdot \text{ReLU}'(a_j^{(l)})$$</p><p>其中，$\mathcal{L}$ 是损失函数，$\text{ReLU}'(x)$ 是修正线性单元激活函数的导数。</p><h3 id="更新权重">更新权重</h3><p>权重和偏置的更新使用梯度下降算法。对于权重 $w_{ji}^{(l)}$ 和偏置 $b_j^{(l)}$，更新规则为：</p><p>$$w_{ji}^{(l)} \leftarrow w_{ji}^{(l)} - \eta \cdot \delta_j^{(l)} \cdot h_i^{(l-1)}$$</p><p>$$b_j^{(l)} \leftarrow b_j^{(l)} - \eta \cdot \delta_j^{(l)}$$</p><p>其中，$\eta$ 是学习率。</p><h3 id="2-反向传播-Backpropagation">2. 反向传播 (Backpropagation)</h3><h4 id="2-1-训练-MLP">2.1 训练 MLP</h4><p>训练 MLP 的过程涉及多次迭代。在每次迭代中，通过前向传播计算输出并通过反向传播计算梯度。然后使用梯度下降法来更新权重和偏置，减小损失函数。迭代直到达到预定的训练次数（epoch）。</p><h4 id="2-2-平均绝对误差-MAE">2.2 平均绝对误差 (MAE)</h4><p>在这个代码中，使用平均绝对误差 (MAE) 作为损失函数，其计算公式为：</p><p>$$\text{MAE} = \frac{1}{N} \sum_{i=1}^{N} |y_i - \hat{y}_i|$$</p><p>其中，$N$ 是样本数量，$y_i$ 是实际值，$\hat{y}_i$ 是模型的预测值。</p><p>这里的代码是基于单样本更新权重，但通常在实际应用中，可以使用批量梯度下降来提高训练效率。</p><p>BP algorithm using Sigmoid &amp;’ Momentum<br>1 Set random values to the initials: $w_{j i}(0) \quad \theta_j(0)$<br>2 For each paired sample, do steps (3-5): $\left(I_p, T_p\right), p=1,2, \ldots, P$<br>3 Calculate output of each layer:<br>$$<br>o_{p j}=f_j\left(\text { Net }<em>{p j}\right)=f_j\left(\sum_i w</em>{j i} o_{p i}+\theta_j\right)<br>$$<br>4 Calculate training errors:<br>OutputLayer: $\delta_{p j}=\left(t_{p j}-o_{p j}\right) o_{p j}\left(1-o_{p j}\right)$<br>HiddenLaye : $\quad \delta_{p j}=o_{p j}\left(1-o_{p j}\right) \sum_k \delta_{p k} w_{k j}$<br>5 Update weights and threshold with momentum term<br>$$<br>\begin{aligned}<br>&amp; w_{j i}(t+1)=w_{j i}(t)+\eta \delta_j o_{p i}+\alpha\left(w_{j i}(t)-w_{j i}(t-1)\right) \<br>&amp; \theta_j(t+1)=\theta_j(t)+\eta \delta_j+\alpha\left(\theta_j(t)-\theta_j(t-1)\right)<br>\end{aligned}<br>$$<br>6 If performance Index meets goal?<br>Yes: finished; No: turn to step (2), go on training.</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/12/09/%E8%BF%87%E6%8E%A7%E4%BD%9C%E4%B8%9A2/"/>
+    <url>/2023/12/09/%E8%BF%87%E6%8E%A7%E4%BD%9C%E4%B8%9A2/</url>
+    
+    <content type="html"><![CDATA[<h2 id="过控作业2-1">过控作业2-1</h2><p>对于输入<br>$$<br>\Delta x=\frac{\Delta Ps}{K_vK_{IP}}=<br>$$</p><p>$<br>对于开环整定法：$$K_c=(\frac{0.9}K)\times(\frac{T}{\tau})$$$$T_i=3.33\tau=$$</p><p>我们通常选择</p><h2 id="过控4-2">过控4-2</h2><p>要解决这个问题，首先需要构建串级控制系统的闭环传递函数。该系统由内回路和外回路组成。过程传递函数是给定的，为<br>$$<br>G_p = \frac{s+1}{s-3}<br>$$</p><p>首先，定义内回路的传递函数为<br>$$<br>G_{c2} = K_{c2}<br>$$</p><p>然后，定义外回路的传递函数为主控制器 $G_{c1}$ 与内回路之积，即<br>$$<br>G_{c1} = \frac{K_{c1}}{T_i s}<br>$$</p><p>整个串级控制系统的传递函数为内回路传递函数与外回路传递函数之积，即<br>$$<br>G = G_p G_{c1} G_{c2} = \frac{K_{c1}K_{c2}}{T_i s(s-3)}<br>$$</p><p>闭环传递函数为<br>$$<br>T = \frac{G}{1+G} = \frac{K_{c1}K_{c2}}{T_i s^2 + K_{c1}K_{c2} - 3K_{c1}K_{c2}}<br>$$</p><p>我们希望闭环系统的极点为 (s=-0.5 \pm 0.2j)。因此，我们可以设置<br>$$<br>T_i s^2 + K_{c1}K_{c2} - 3K_{c1}K_{c2} = 0<br>$$</p><p>现在，我们可以按照上述步骤解决问题。</p><p>(a) 内回路 (G_{c2}) 的最大范围，使得内回路保持稳定，可以通过查找 (G_{c2}) 的临界稳定性条件，即 (1 + G_p G_{c2} = 0) 的范围来确定。在这个情况下，(G_{c2}) 的范围可以是 (0 &lt; K_{c2} &lt; 3)。</p><p>(b) 当 (K_{c2} = 6) 时，我们可以将 (G) 的分母设置为零，以找到 (K_{c1}) 和 (T_i) 的值：<br>$$<br>T_i s^2 + K_{c1}K_{c2} - 3K_{c1}K_{c2} = T_i s^2 + 6K_{c1} - 18K_{c1} = 0<br>$$</p><p>在这个方程中，我们可以设定 (s = -0.5 + 0.2j) 来求解 (K_{c1}) 和 (T_i)。代入这个值，方程变为：<br>$$<br>T_i(-0.5 + 0.2j)^2 + 6K_{c1} - 18K_{c1} = 0<br>$$</p><p>解这个方程，可以得到 (K_{c1}) 和 (T_i) 的值。然后，我们可以验证这些值是否满足系统的闭环极点要求。<br>$$<br>G_{c2}=\frac{K_{c2}G_{ps}}{1+K_{c2}G_{ps}}=\frac{6s+6}{7s+3}<br>$$</p><p>$$<br>G_{c1} = K_{c1}(1+\frac{1}{T_i s})<br>$$</p><p>$$<br>\frac{Y(s)}{Y_{sp}}=\frac{G_{c1}G_{c2}}{1+G_{c1}G_{c2}}=\frac{K_{c1}(T_is+1)(6s+6)}{(6K_{c1}+7)T_is^2+(3T_i+6K_{c1}+6K_{c1}T_i)s+6K_{c1}}<br>$$</p><p>$$<br>7T_is^2+(3T_i+6K_{c1})s+6K_{c1}=0<br>$$<br>$$<br>s=-0.5 \pm 0.2j\<br>(s+0.5+0.2j)(s+0.5-0.2j)=0<br>$$<br>K_{c1}=7/6/0.71, T=7/(6K+3)</p><p>解得</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/11/25/%E7%89%A9%E7%90%86/%E5%8A%9B%E4%B8%8E%E8%BF%90%E5%8A%A8/"/>
+    <url>/2023/11/25/%E7%89%A9%E7%90%86/%E5%8A%9B%E4%B8%8E%E8%BF%90%E5%8A%A8/</url>
+    
+    <content type="html"><![CDATA[<p>==回顾==</p><h2 id="基础">基础</h2><p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/20231125124805.png" alt="image.png"></p><blockquote><p>思考一下，日常中为什么没有这样的现象。</p></blockquote><h2 id="趣味思考题">趣味思考题</h2><p>杯中放水：M中放密度为$\rho$的液体实现最稳定。</p><h2 id="摩擦力">摩擦力</h2><p>性质：与运动方向相反，<code>P78-5</code>，如何用手搓卷子</p><h2 id="旋转题">旋转题</h2><p>比如<code>P85-7</code>，</p><blockquote><p>思考下假如旋转到底会发生什么，为什么</p></blockquote><p>==惯性==</p><p>惯性会带来什么？惯性会不会受到限制？假如我们考虑到其他的情况，是不是可以将惯性换成力来表示？</p><p>思考<code>P93-10,11</code></p><h2 id="力学单位制与看题">力学单位制与看题</h2><h2 id="魔怔的传送带">魔怔的传送带</h2><p>下落过程可能发生的变化： $$v_上&gt;v_下 ,<br>v_上&lt;v_下$$<br>会不会反向，会不会共速停下，双层怎么办。</p><p>重点其实就在于不同的情况。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/11/18/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E6%9C%9F%E4%B8%AD%E6%B1%87%E6%80%BB/"/>
+    <url>/2023/11/18/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E6%9C%9F%E4%B8%AD%E6%B1%87%E6%80%BB/</url>
+    
+    <content type="html"><![CDATA[<h2 id="大致概括">大致概括</h2><p>卷子组成：前面简单送分题 + 后面略难选择题 + 简单实验题 + 大题</p><h2 id="选择">选择</h2><h3 id="11">11</h3><p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/d27646c3d2fea3b873ade4910ffcb64.jpg" alt="d27646c3d2fea3b873ade4910ffcb64.jpg"></p><p>对于11题，A是因为正在滚动，是静摩擦力。<br>B水平受平台和上面滚轮的力，想要纸随着滚轮走，显然滚轮的力要更大一点，并且由于提供压力较大，所以可以视作<code>N</code>相等，那么需要$\mu_1&gt;\mu_2$。<br>C是因为对于整体，力是相互的，假如有个向左的力，就有一个向右的力，那么对于下面纸张，其实是可以视作一个整体，整体之间的地位等价，比如一个弹簧上，每个点左右受的拉力相等。</p><h3 id="14">14</h3><p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/7242dd75a515008a5d8048e97d81963.jpg" alt="7242dd75a515008a5d8048e97d81963.jpg"><br>这个题只能说，你把这当成一个整体，那么一个向上的力消失了，难道不该弹簧提供的力改变么？</p><h2 id="实验">实验</h2><p>不好看出哪里错了。</p><h3 id="15">15</h3><p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/5ed480b79a2d6c727e9ebba85d42bf9.jpg" alt="5ed480b79a2d6c727e9ebba85d42bf9.jpg"></p><blockquote><p>其实不管对于什么题，单位都是一件重要的事情，要先看单位再做题</p></blockquote><h2 id="大题">大题</h2><h3 id="20">20</h3><p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/141d4e4f162caf6f12035de5ab85eb9.jpg" alt="141d4e4f162caf6f12035de5ab85eb9.jpg"></p><p>应该是<br>$$两绳合力F_4 = 2F_3cos\frac{\theta}{2}$$<br>$$水平F_4 cos \alpha= \mu N$$$$竖直F_4 sin\alpha= G-N$$<br>应该努力消$N$或者直接计算，得到结果<br>$$F_4 = \frac{\mu G}{cos\alpha + \mu sin\alpha}$$</p><h3 id="21">21</h3><p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/91aa931c02134c1ee72c76f7b37c7f8.jpg" alt="91aa931c02134c1ee72c76f7b37c7f8.jpg"><br>不知道2分是为什么，最后应该做出来了？</p><h2 id="总结">总结</h2><p>感觉题目出的部分是有挑战性的，但是也不是不能做，更多还是模型构建的问题。</p><blockquote><p>PS：你这草稿不在草稿纸上反而在试卷上，而且没有条理。看不出一个全套的过程。不过考试还是以自己擅长的风格为主。</p></blockquote>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>乌镇之行</title>
     <link href="/2023/10/31/%E4%B9%8C%E9%95%87%E4%B9%8B%E8%A1%8C/"/>
     <url>/2023/10/31/%E4%B9%8C%E9%95%87%E4%B9%8B%E8%A1%8C/</url>
@@ -328,7 +433,7 @@
     <link href="/2023/08/07/TODO/"/>
     <url>/2023/08/07/TODO/</url>
     
-    <content type="html"><![CDATA[<h2 id="大三上"><a class="markdownIt-Anchor" href="#大三上"></a> 大三上</h2><p>#todo</p><ul><li>[x] 10.17 买高一物理五三</li><li>[x] 10.21 去坐地铁</li><li>[x] 10.22 大数据解析与应用导论学在浙大作业</li><li>[x] 10.22 大数据解析与应用导论慕课作业</li><li>[x] 10.22 现控第二次实验作业</li><li>[x] 10.23 教学办</li><li>[x] 10.23 现代控制理论第四周作业</li><li>[x] 10.23 人工智能与机器学习作业</li><li>[x] 10.24 教学办</li><li>[x] 10.28 坐地铁</li><li>[x] 10.30 SRTP总结报告</li><li>[x] 10.30 MATLAB实验1</li><li>[x] 10.30 教学办</li><li>[x] 10.31 紫金港行前</li><li>[x] 11.01 乌镇</li><li>[x] 11.09 大数据安全</li><li>[x] 11.13 教学办</li><li>[ ] 11.15 现控matlab作业</li><li>[ ]</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="大三上">大三上</h2><p>#todo</p><ul><li>[x] 10.17 买高一物理五三</li><li>[x] 10.21 去坐地铁</li><li>[x] 10.22 大数据解析与应用导论学在浙大作业</li><li>[x] 10.22 大数据解析与应用导论慕课作业</li><li>[x] 10.22 现控第二次实验作业</li><li>[x] 10.23 教学办</li><li>[x] 10.23 现代控制理论第四周作业</li><li>[x] 10.23 人工智能与机器学习作业</li><li>[x] 10.24 教学办</li><li>[x] 10.28 坐地铁</li><li>[x] 10.30 SRTP总结报告</li><li>[x] 10.30 MATLAB实验1</li><li>[x] 10.30 教学办</li><li>[x] 10.31 紫金港行前</li><li>[x] 11.01 乌镇</li><li>[x] 11.09 大数据安全</li><li>[x] 11.13 教学办</li><li>[x] 11.15 现控matlab作业</li><li>[x] 11.17 中期报告</li></ul>]]></content>
     
     
     <categories>
