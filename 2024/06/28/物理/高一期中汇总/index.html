@@ -16,17 +16,23 @@
   <meta name="author" content="mid2rain">
   <meta name="keywords" content="">
   
-    <meta name="description" content="智控作业 **摘要：**在 **关键词：**在 原理 初始化参数 初始化参数包括权重 (wih, who) 和偏置 (bh, bo)。在代码中，使用正态分布随机初始化权重，偏置初始化为零。 1.2 前向传播 前向传播将输入信号通过权重和激活函数传递到神经网络的输出。具体来说，对于第 $l$ 层的神经元 $j$，其输入 $a_j^{(l)}$ 和输出 $h_j^{(l)}$ 分别为： $$a_j^{">
+    <meta name="description" content="大致概括 卷子组成：前面简单送分题 + 后面略难选择题 + 简单实验题 + 大题 选择 11  对于11题，A是因为正在滚动，是静摩擦力。 B水平受平台和上面滚轮的力，想要纸随着滚轮走，显然滚轮的力要更大一点，并且由于提供压力较大，所以可以视作N相等，那么需要$\mu_1&gt;\mu_2$。 C是因为对于整体，力是相互的，假如有个向左的力，就有一个向右的力，那么对于下面纸张，其实是可以视作一个整">
 <meta property="og:type" content="article">
 <meta property="og:title" content="mid2rain">
-<meta property="og:url" content="http://example.com/2023/12/10/%E6%99%BA%E6%8E%A7%E4%B8%80/index.html">
+<meta property="og:url" content="http://example.com/2024/06/28/%E7%89%A9%E7%90%86/%E9%AB%98%E4%B8%80%E6%9C%9F%E4%B8%AD%E6%B1%87%E6%80%BB/index.html">
 <meta property="og:site_name" content="mid2rain">
-<meta property="og:description" content="智控作业 **摘要：**在 **关键词：**在 原理 初始化参数 初始化参数包括权重 (wih, who) 和偏置 (bh, bo)。在代码中，使用正态分布随机初始化权重，偏置初始化为零。 1.2 前向传播 前向传播将输入信号通过权重和激活函数传递到神经网络的输出。具体来说，对于第 $l$ 层的神经元 $j$，其输入 $a_j^{(l)}$ 和输出 $h_j^{(l)}$ 分别为： $$a_j^{">
+<meta property="og:description" content="大致概括 卷子组成：前面简单送分题 + 后面略难选择题 + 简单实验题 + 大题 选择 11  对于11题，A是因为正在滚动，是静摩擦力。 B水平受平台和上面滚轮的力，想要纸随着滚轮走，显然滚轮的力要更大一点，并且由于提供压力较大，所以可以视作N相等，那么需要$\mu_1&gt;\mu_2$。 C是因为对于整体，力是相互的，假如有个向左的力，就有一个向右的力，那么对于下面纸张，其实是可以视作一个整">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-12-10T12:30:25.719Z">
-<meta property="article:modified_time" content="2024-01-06T07:25:08.002Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/d27646c3d2fea3b873ade4910ffcb64.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/7242dd75a515008a5d8048e97d81963.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/5ed480b79a2d6c727e9ebba85d42bf9.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/141d4e4f162caf6f12035de5ab85eb9.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/91aa931c02134c1ee72c76f7b37c7f8.jpg">
+<meta property="article:published_time" content="2024-06-28T15:49:25.984Z">
+<meta property="article:modified_time" content="2023-11-18T12:37:34.734Z">
 <meta property="article:author" content="mid2rain">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/d27646c3d2fea3b873ade4910ffcb64.jpg">
   
   
   
@@ -248,8 +254,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-12-10 20:30" pubdate>
-          2023年12月10日 晚上
+        <time datetime="2024-06-28 23:49" pubdate>
+          2024年6月28日 晚上
         </time>
       </span>
     
@@ -260,7 +266,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2k 字
+          570 字
         
       </span>
     
@@ -271,7 +277,7 @@
         
         
         
-          17 分钟
+          5 分钟
         
       </span>
     
@@ -325,7 +331,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2 天前
+                    本文最后更新于：1 年前
                   
                 
               </p>
@@ -333,54 +339,40 @@
             
               <div class="markdown-body">
                 
-                <h1>智控作业</h1>
-<p>**摘要：**在</p>
-<p>**关键词：**在</p>
-<h2 id="原理">原理</h2>
-<h3 id="初始化参数">初始化参数</h3>
-<p>初始化参数包括权重 (<code>wih</code>, <code>who</code>) 和偏置 (<code>bh</code>, <code>bo</code>)。在代码中，使用正态分布随机初始化权重，偏置初始化为零。</p>
-<h4 id="1-2-前向传播">1.2 前向传播</h4>
-<p>前向传播将输入信号通过权重和激活函数传递到神经网络的输出。具体来说，对于第 $l$ 层的神经元 $j$，其输入 $a_j^{(l)}$ 和输出 $h_j^{(l)}$ 分别为：</p>
-<p>$$a_j^{(l)} = \sum_{i=1}^{n^{(l-1)}} w_{ji}^{(l)} h_i^{(l-1)} + b_j^{(l)}$$</p>
-<p>$$h_j^{(l)} = \text{ReLU}(a_j^{(l)})$$</p>
-<p>其中，$n^{(l-1)}$ 是前一层的神经元数量，$w_{ji}^{(l)}$ 是连接第 $i$ 个神经元到第 $j$ 个神经元的权重，$b_j^{(l)}$ 是第 $j$ 个神经元的偏置，$\text{ReLU}(x)$ 是修正线性单元激活函数。</p>
-<h4 id="1-3-反向传播">1.3 反向传播</h4>
-<p>反向传播用于计算梯度，从而更新权重和偏置。对于输出层和隐藏层的神经元 $j$，其误差项 $\delta_j^{(l)}$ 分别为：</p>
-<p>$$\delta_j^{(L)} = \frac{\partial \mathcal{L}}{\partial a_j^{(L)}}$$</p>
-<p>$$\delta_j^{(l)} = \frac{\partial \mathcal{L}}{\partial a_j^{(l)}} = (\sum_{k=1}^{n^{(l+1)}} w_{kj}^{(l+1)} \delta_k^{(l+1)}) \cdot \text{ReLU}'(a_j^{(l)})$$</p>
-<p>其中，$\mathcal{L}$ 是损失函数，$\text{ReLU}'(x)$ 是修正线性单元激活函数的导数。</p>
-<h3 id="更新权重">更新权重</h3>
-<p>权重和偏置的更新使用梯度下降算法。对于权重 $w_{ji}^{(l)}$ 和偏置 $b_j^{(l)}$，更新规则为：</p>
-<p>$$w_{ji}^{(l)} \leftarrow w_{ji}^{(l)} - \eta \cdot \delta_j^{(l)} \cdot h_i^{(l-1)}$$</p>
-<p>$$b_j^{(l)} \leftarrow b_j^{(l)} - \eta \cdot \delta_j^{(l)}$$</p>
-<p>其中，$\eta$ 是学习率。</p>
-<h3 id="2-反向传播-Backpropagation">2. 反向传播 (Backpropagation)</h3>
-<h4 id="2-1-训练-MLP">2.1 训练 MLP</h4>
-<p>训练 MLP 的过程涉及多次迭代。在每次迭代中，通过前向传播计算输出并通过反向传播计算梯度。然后使用梯度下降法来更新权重和偏置，减小损失函数。迭代直到达到预定的训练次数（epoch）。</p>
-<h4 id="2-2-平均绝对误差-MAE">2.2 平均绝对误差 (MAE)</h4>
-<p>在这个代码中，使用平均绝对误差 (MAE) 作为损失函数，其计算公式为：</p>
-<p>$$\text{MAE} = \frac{1}{N} \sum_{i=1}^{N} |y_i - \hat{y}_i|$$</p>
-<p>其中，$N$ 是样本数量，$y_i$ 是实际值，$\hat{y}_i$ 是模型的预测值。</p>
-<p>这里的代码是基于单样本更新权重，但通常在实际应用中，可以使用批量梯度下降来提高训练效率。</p>
-<p>BP algorithm using Sigmoid &amp;’ Momentum<br>
-1 Set random values to the initials: $w_{j i}(0) \quad \theta_j(0)$<br>
-2 For each paired sample, do steps (3-5): $\left(I_p, T_p\right), p=1,2, \ldots, P$<br>
-3 Calculate output of each layer:<br>
-$$<br>
-o_{p j}=f_j\left(\text { Net }<em>{p j}\right)=f_j\left(\sum_i w</em>{j i} o_{p i}+\theta_j\right)<br>
-$$<br>
-4 Calculate training errors:<br>
-OutputLayer: $\delta_{p j}=\left(t_{p j}-o_{p j}\right) o_{p j}\left(1-o_{p j}\right)$<br>
-HiddenLaye : $\quad \delta_{p j}=o_{p j}\left(1-o_{p j}\right) \sum_k \delta_{p k} w_{k j}$<br>
-5 Update weights and threshold with momentum term<br>
-$$<br>
-\begin{aligned}<br>
-&amp; w_{j i}(t+1)=w_{j i}(t)+\eta \delta_j o_{p i}+\alpha\left(w_{j i}(t)-w_{j i}(t-1)\right) \<br>
-&amp; \theta_j(t+1)=\theta_j(t)+\eta \delta_j+\alpha\left(\theta_j(t)-\theta_j(t-1)\right)<br>
-\end{aligned}<br>
-$$<br>
-6 If performance Index meets goal?<br>
-Yes: finished; No: turn to step (2), go on training.</p>
+                <h2 id="大致概括">大致概括</h2>
+<p>卷子组成：前面简单送分题 + 后面略难选择题 + 简单实验题 + 大题</p>
+<h2 id="选择">选择</h2>
+<h3 id="11">11</h3>
+<p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/d27646c3d2fea3b873ade4910ffcb64.jpg" srcset="/img/loading.gif" lazyload alt="d27646c3d2fea3b873ade4910ffcb64.jpg"></p>
+<p>对于11题，A是因为正在滚动，是静摩擦力。<br>
+B水平受平台和上面滚轮的力，想要纸随着滚轮走，显然滚轮的力要更大一点，并且由于提供压力较大，所以可以视作<code>N</code>相等，那么需要$\mu_1&gt;\mu_2$。<br>
+C是因为对于整体，力是相互的，假如有个向左的力，就有一个向右的力，那么对于下面纸张，其实是可以视作一个整体，整体之间的地位等价，比如一个弹簧上，每个点左右受的拉力相等。</p>
+<h3 id="14">14</h3>
+<p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/7242dd75a515008a5d8048e97d81963.jpg" srcset="/img/loading.gif" lazyload alt="7242dd75a515008a5d8048e97d81963.jpg"><br>
+这个题只能说，你把这当成一个整体，那么一个向上的力消失了，难道不该弹簧提供的力改变么？</p>
+<h2 id="实验">实验</h2>
+<p>不好看出哪里错了。</p>
+<h3 id="15">15</h3>
+<p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/5ed480b79a2d6c727e9ebba85d42bf9.jpg" srcset="/img/loading.gif" lazyload alt="5ed480b79a2d6c727e9ebba85d42bf9.jpg"></p>
+<blockquote>
+<p>其实不管对于什么题，单位都是一件重要的事情，要先看单位再做题</p>
+</blockquote>
+<h2 id="大题">大题</h2>
+<h3 id="20">20</h3>
+<p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/141d4e4f162caf6f12035de5ab85eb9.jpg" srcset="/img/loading.gif" lazyload alt="141d4e4f162caf6f12035de5ab85eb9.jpg"></p>
+<p>应该是<br>
+$$两绳合力F_4 = 2F_3cos\frac{\theta}{2}$$<br>
+$$水平F_4 cos \alpha= \mu N$$$$竖直F_4 sin\alpha= G-N$$<br>
+应该努力消$N$或者直接计算，得到结果<br>
+$$F_4 = \frac{\mu G}{cos\alpha + \mu sin\alpha}$$</p>
+<h3 id="21">21</h3>
+<p><img src="https://raw.githubusercontent.com/mid2rain/mid2rain_image/main/91aa931c02134c1ee72c76f7b37c7f8.jpg" srcset="/img/loading.gif" lazyload alt="91aa931c02134c1ee72c76f7b37c7f8.jpg"><br>
+不知道2分是为什么，最后应该做出来了？</p>
+<h2 id="总结">总结</h2>
+<p>感觉题目出的部分是有挑战性的，但是也不是不能做，更多还是模型构建的问题。</p>
+<blockquote>
+<p>PS：你这草稿不在草稿纸上反而在试卷上，而且没有条理。看不出一个全套的过程。不过考试还是以自己擅长的风格为主。</p>
+</blockquote>
 
                 
               </div>
@@ -399,7 +391,7 @@ Yes: finished; No: turn to step (2), go on training.</p>
   <div class="license-box my-3">
     <div class="license-title">
       <div></div>
-      <div>http://example.com/2023/12/10/智控一/</div>
+      <div>http://example.com/2024/06/28/物理/高一期中汇总/</div>
     </div>
     <div class="license-meta">
       
@@ -411,13 +403,13 @@ Yes: finished; No: turn to step (2), go on training.</p>
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年12月10日</div>
+          <div>2024年6月28日</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2024年1月6日</div>
+          <div>2023年11月18日</div>
         </div>
       
       
@@ -448,7 +440,7 @@ Yes: finished; No: turn to step (2), go on training.</p>
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/01/04/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" title="">
+                      <a href="/2024/09/12/%E6%8E%A8%E5%85%8D/" title="">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile"></span>
                         <span class="visible-mobile">上一篇</span>
@@ -458,7 +450,7 @@ Yes: finished; No: turn to step (2), go on training.</p>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/12/09/%E8%BF%87%E6%8E%A7%E4%BD%9C%E4%B8%9A2/" title="">
+                      <a href="/2024/03/10/%E6%80%A7%E7%88%B1/" title="">
                         <span class="hidden-mobile"></span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
